@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.019599] (test_pkg) JobQueued: {'identifier': 'test_pkg', 'dependencies': OrderedDict()}
+[0.019696] (three_node_pkg) JobQueued: {'identifier': 'three_node_pkg', 'dependencies': OrderedDict()}
+[0.019719] (test_pkg) JobStarted: {'identifier': 'test_pkg'}
+[0.104697] (-) TimerEvent: {}
+[0.205638] (-) TimerEvent: {}
+[0.324523] (-) TimerEvent: {}
+[0.438706] (-) TimerEvent: {}
+[0.497145] (three_node_pkg) JobStarted: {'identifier': 'three_node_pkg'}
+[0.550229] (-) TimerEvent: {}
+[0.653019] (-) TimerEvent: {}
+[0.762611] (-) TimerEvent: {}
+[0.871842] (-) TimerEvent: {}
+[0.977766] (-) TimerEvent: {}
+[1.089999] (-) TimerEvent: {}
+[1.193784] (-) TimerEvent: {}
+[1.304431] (-) TimerEvent: {}
+[1.413724] (-) TimerEvent: {}
+[1.526816] (-) TimerEvent: {}
+[1.640359] (-) TimerEvent: {}
+[1.746349] (-) TimerEvent: {}
+[1.849013] (-) TimerEvent: {}
+[1.959494] (-) TimerEvent: {}
+[2.061135] (-) TimerEvent: {}
+[2.181331] (-) TimerEvent: {}
+[2.288649] (-) TimerEvent: {}
+[2.395587] (-) TimerEvent: {}
+[2.517573] (-) TimerEvent: {}
+[2.664597] (-) TimerEvent: {}
+[2.767004] (-) TimerEvent: {}
+[2.912428] (-) TimerEvent: {}
+[3.049033] (-) TimerEvent: {}
+[3.160754] (-) TimerEvent: {}
+[3.266091] (-) TimerEvent: {}
+[3.373695] (-) TimerEvent: {}
+[3.482948] (-) TimerEvent: {}
+[3.590759] (-) TimerEvent: {}
+[3.695832] (-) TimerEvent: {}
+[3.804931] (-) TimerEvent: {}
+[3.911934] (-) TimerEvent: {}
+[4.013802] (-) TimerEvent: {}
+[4.115751] (-) TimerEvent: {}
+[4.223889] (-) TimerEvent: {}
+[4.325735] (-) TimerEvent: {}
+[4.430819] (-) TimerEvent: {}
+[4.553846] (-) TimerEvent: {}
+[4.679508] (-) TimerEvent: {}
+[4.780776] (-) TimerEvent: {}
+[4.885647] (-) TimerEvent: {}
+[5.000020] (-) TimerEvent: {}
+[5.112105] (-) TimerEvent: {}
+[5.237400] (-) TimerEvent: {}
+[5.382575] (-) TimerEvent: {}
+[5.490329] (-) TimerEvent: {}
+[5.591690] (-) TimerEvent: {}
+[5.695678] (-) TimerEvent: {}
+[5.800148] (-) TimerEvent: {}
+[5.921707] (-) TimerEvent: {}
+[6.033871] (-) TimerEvent: {}
+[6.158440] (-) TimerEvent: {}
+[6.260070] (-) TimerEvent: {}
+[6.375548] (-) TimerEvent: {}
+[6.508524] (-) TimerEvent: {}
+[6.617604] (-) TimerEvent: {}
+[6.719067] (-) TimerEvent: {}
+[6.832867] (-) TimerEvent: {}
+[6.935123] (-) TimerEvent: {}
+[7.048555] (-) TimerEvent: {}
+[7.153516] (-) TimerEvent: {}
+[7.256951] (-) TimerEvent: {}
+[7.361758] (-) TimerEvent: {}
+[7.503591] (-) TimerEvent: {}
+[7.609806] (-) TimerEvent: {}
+[7.715329] (-) TimerEvent: {}
+[7.821529] (-) TimerEvent: {}
+[7.923518] (-) TimerEvent: {}
+[8.028138] (-) TimerEvent: {}
+[8.132396] (-) TimerEvent: {}
+[8.244072] (-) TimerEvent: {}
+[8.350539] (-) TimerEvent: {}
+[8.463466] (-) TimerEvent: {}
+[8.575364] (-) TimerEvent: {}
+[8.676720] (-) TimerEvent: {}
+[8.779095] (-) TimerEvent: {}
+[8.899481] (-) TimerEvent: {}
+[9.002489] (-) TimerEvent: {}
+[9.107041] (-) TimerEvent: {}
+[9.207887] (-) TimerEvent: {}
+[9.309175] (-) TimerEvent: {}
+[9.419405] (-) TimerEvent: {}
+[9.527474] (-) TimerEvent: {}
+[9.630502] (-) TimerEvent: {}
+[9.733015] (-) TimerEvent: {}
+[9.847004] (-) TimerEvent: {}
+[9.948231] (-) TimerEvent: {}
+[10.052022] (-) TimerEvent: {}
+[10.152934] (-) TimerEvent: {}
+[10.256207] (-) TimerEvent: {}
+[10.360706] (-) TimerEvent: {}
+[10.464749] (-) TimerEvent: {}
+[10.574044] (-) TimerEvent: {}
+[10.692521] (-) TimerEvent: {}
+[10.855732] (-) TimerEvent: {}
+[10.980356] (-) TimerEvent: {}
+[11.089666] (-) TimerEvent: {}
+[11.202803] (-) TimerEvent: {}
+[11.341956] (-) TimerEvent: {}
+[11.444723] (-) TimerEvent: {}
+[11.588413] (-) TimerEvent: {}
+[11.710858] (-) TimerEvent: {}
+[11.838953] (-) TimerEvent: {}
+[11.947706] (-) TimerEvent: {}
+[12.070642] (-) TimerEvent: {}
+[12.173288] (-) TimerEvent: {}
+[12.275621] (-) TimerEvent: {}
+[12.406543] (-) TimerEvent: {}
+[12.512802] (-) TimerEvent: {}
+[12.625398] (-) TimerEvent: {}
+[12.733825] (-) TimerEvent: {}
+[12.849526] (-) TimerEvent: {}
+[12.953444] (-) TimerEvent: {}
+[13.070310] (-) TimerEvent: {}
+[13.202154] (-) TimerEvent: {}
+[13.308617] (-) TimerEvent: {}
+[13.410495] (-) TimerEvent: {}
+[13.537502] (-) TimerEvent: {}
+[13.639401] (-) TimerEvent: {}
+[13.674983] (three_node_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/three_node_pkg', 'build', '--build-base', '/home/yuchel/shared_repo/build/three_node_pkg/build', 'install', '--record', '/home/yuchel/shared_repo/build/three_node_pkg/install.log', '--install-scripts', '$base/lib/three_node_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yuchel/shared_repo/src/three_node_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'yuchel', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yuchel/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/252/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yuchel', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.129.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/252/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yuchel/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/252/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/252/usr/share/code/code', 'MANAGERPID': '2066', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2293', 'BUNDLED_DEBUGPY_PATH': '/home/yuchel/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3043', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yuchel', 'JOURNAL_STREAM': '10:17671', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yuchel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/yuchel/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yuchel/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yuchel/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/Y-PC:@/tmp/.ICE-unix/2261,unix/Y-PC:/tmp/.ICE-unix/2261', 'GTK_EXE_PREFIX': '/snap/code/252/usr', 'INVOCATION_ID': '2c8f00e2b12b470987cbe24c4278399f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/252/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yuchel/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b375bb894e36a4e6.txt', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/yuchel/.config/Code/User/workspaceStorage/a0c876c91f80fcae58cace96f1f663b3/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yuchel/snap/code/252/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F02GT3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e9c26a3b65.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yuchel/snap/code/252/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuchel/shared_repo/build/three_node_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': '512ba9a3ec3d2db80ab74ef5e5c81a6b', 'XDG_DATA_DIRS': '/home/yuchel/snap/code/252/.local/share:/home/yuchel/snap/code/252:/snap/code/252/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yuchel/shared_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.739708] (-) TimerEvent: {}
+[13.852920] (-) TimerEvent: {}
+[13.919277] (test_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_pkg', 'build', '--build-base', '/home/yuchel/shared_repo/build/test_pkg/build', 'install', '--record', '/home/yuchel/shared_repo/build/test_pkg/install.log', '--install-scripts', '$base/lib/test_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yuchel/shared_repo/src/test_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'yuchel', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yuchel/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/252/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yuchel', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.129.1', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/252/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yuchel/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/252/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/252/usr/share/code/code', 'MANAGERPID': '2066', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2293', 'BUNDLED_DEBUGPY_PATH': '/home/yuchel/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3043', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yuchel', 'JOURNAL_STREAM': '10:17671', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yuchel', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/yuchel/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yuchel/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yuchel/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/Y-PC:@/tmp/.ICE-unix/2261,unix/Y-PC:/tmp/.ICE-unix/2261', 'GTK_EXE_PREFIX': '/snap/code/252/usr', 'INVOCATION_ID': '2c8f00e2b12b470987cbe24c4278399f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/252/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yuchel/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b375bb894e36a4e6.txt', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/yuchel/.config/Code/User/workspaceStorage/a0c876c91f80fcae58cace96f1f663b3/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yuchel/snap/code/252/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F02GT3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e9c26a3b65.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yuchel/snap/code/252/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuchel/shared_repo/build/test_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': '512ba9a3ec3d2db80ab74ef5e5c81a6b', 'XDG_DATA_DIRS': '/home/yuchel/snap/code/252/.local/share:/home/yuchel/snap/code/252:/snap/code/252/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yuchel/shared_repo/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[13.954300] (-) TimerEvent: {}
+[14.064597] (-) TimerEvent: {}
+[14.169873] (-) TimerEvent: {}
+[14.282645] (-) TimerEvent: {}
+[14.383659] (-) TimerEvent: {}
+[14.485448] (-) TimerEvent: {}
+[14.586808] (-) TimerEvent: {}
+[14.696601] (-) TimerEvent: {}
+[14.801424] (-) TimerEvent: {}
+[14.923831] (-) TimerEvent: {}
+[15.044083] (-) TimerEvent: {}
+[15.145640] (-) TimerEvent: {}
+[15.253594] (-) TimerEvent: {}
+[15.361135] (-) TimerEvent: {}
+[15.462890] (-) TimerEvent: {}
+[15.563401] (-) TimerEvent: {}
+[15.664876] (-) TimerEvent: {}
+[15.767098] (-) TimerEvent: {}
+[15.869887] (-) TimerEvent: {}
+[15.977269] (-) TimerEvent: {}
+[16.079883] (-) TimerEvent: {}
+[16.229969] (-) TimerEvent: {}
+[16.331965] (-) TimerEvent: {}
+[16.450555] (-) TimerEvent: {}
+[16.551998] (-) TimerEvent: {}
+[16.664760] (-) TimerEvent: {}
+[16.691902] (three_node_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[16.776078] (-) TimerEvent: {}
+[16.886937] (-) TimerEvent: {}
+[16.897756] (three_node_pkg) StdoutLine: {'line': b'writing ../../build/three_node_pkg/three_node_pkg.egg-info/PKG-INFO\n'}
+[16.912066] (three_node_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/three_node_pkg/three_node_pkg.egg-info/dependency_links.txt\n'}
+[16.912617] (three_node_pkg) StdoutLine: {'line': b'writing entry points to ../../build/three_node_pkg/three_node_pkg.egg-info/entry_points.txt\n'}
+[16.930734] (three_node_pkg) StdoutLine: {'line': b'writing requirements to ../../build/three_node_pkg/three_node_pkg.egg-info/requires.txt\n'}
+[16.931007] (three_node_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/three_node_pkg/three_node_pkg.egg-info/top_level.txt\n'}
+[16.987769] (-) TimerEvent: {}
+[17.093479] (-) TimerEvent: {}
+[17.194442] (-) TimerEvent: {}
+[17.302193] (-) TimerEvent: {}
+[17.386371] (three_node_pkg) StdoutLine: {'line': b"reading manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'\n"}
+[17.394066] (three_node_pkg) StdoutLine: {'line': b"writing manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'\n"}
+[17.412603] (three_node_pkg) StdoutLine: {'line': b'running build\n'}
+[17.413329] (-) TimerEvent: {}
+[17.419091] (three_node_pkg) StdoutLine: {'line': b'running build_py\n'}
+[17.436820] (three_node_pkg) StdoutLine: {'line': b'running install\n'}
+[17.465044] (three_node_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[17.527450] (-) TimerEvent: {}
+[17.559064] (test_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[17.630469] (test_pkg) StdoutLine: {'line': b'writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO\n'}
+[17.630690] (-) TimerEvent: {}
+[17.631347] (test_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt\n'}
+[17.631753] (test_pkg) StdoutLine: {'line': b'writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt\n'}
+[17.631882] (test_pkg) StdoutLine: {'line': b'writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt\n'}
+[17.631944] (test_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt\n'}
+[17.731447] (-) TimerEvent: {}
+[17.854864] (test_pkg) StdoutLine: {'line': b"reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[17.855211] (-) TimerEvent: {}
+[17.869978] (test_pkg) StdoutLine: {'line': b"writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'\n"}
+[17.871046] (test_pkg) StdoutLine: {'line': b'running build\n'}
+[17.871249] (test_pkg) StdoutLine: {'line': b'running build_py\n'}
+[17.875396] (test_pkg) StdoutLine: {'line': b'running install\n'}
+[17.908249] (three_node_pkg) StdoutLine: {'line': b'running install_data\n'}
+[17.918891] (test_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[17.919440] (three_node_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.962872] (-) TimerEvent: {}
+[18.065102] (-) TimerEvent: {}
+[18.105751] (test_pkg) StdoutLine: {'line': b'running install_data\n'}
+[18.107145] (test_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.170604] (-) TimerEvent: {}
+[18.252251] (three_node_pkg) StdoutLine: {'line': b"removing '/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[18.270798] (-) TimerEvent: {}
+[18.281231] (test_pkg) StdoutLine: {'line': b"removing '/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[18.288739] (test_pkg) StdoutLine: {'line': b'Copying ../../build/test_pkg/test_pkg.egg-info to /home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info\n'}
+[18.305599] (test_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[18.343604] (three_node_pkg) StdoutLine: {'line': b'Copying ../../build/three_node_pkg/three_node_pkg.egg-info to /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg-0.0.0-py3.12.egg-info\n'}
+[18.374584] (-) TimerEvent: {}
+[18.383129] (three_node_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[18.475914] (-) TimerEvent: {}
+[18.603608] (-) TimerEvent: {}
+[18.706206] (-) TimerEvent: {}
+[18.807118] (-) TimerEvent: {}
+[18.848602] (test_pkg) StdoutLine: {'line': b'Installing publisher script to /home/yuchel/shared_repo/install/test_pkg/lib/test_pkg\n'}
+[18.851828] (test_pkg) StdoutLine: {'line': b'Installing subscriber script to /home/yuchel/shared_repo/install/test_pkg/lib/test_pkg\n'}
+[18.852813] (test_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/yuchel/shared_repo/build/test_pkg/install.log'\n"}
+[18.907560] (-) TimerEvent: {}
+[19.014911] (-) TimerEvent: {}
+[19.058376] (test_pkg) CommandEnded: {'returncode': 0}
+[19.117583] (-) TimerEvent: {}
+[19.201226] (test_pkg) JobEnded: {'identifier': 'test_pkg', 'rc': 0}
+[19.219661] (-) TimerEvent: {}
+[19.325108] (-) TimerEvent: {}
+[19.437386] (three_node_pkg) StdoutLine: {'line': b'Installing control script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg\n'}
+[19.437931] (-) TimerEvent: {}
+[19.469343] (three_node_pkg) StdoutLine: {'line': b'Installing display script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg\n'}
+[19.483308] (three_node_pkg) StdoutLine: {'line': b'Installing input script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg\n'}
+[19.487553] (three_node_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/yuchel/shared_repo/build/three_node_pkg/install.log'\n"}
+[19.540844] (-) TimerEvent: {}
+[19.677743] (-) TimerEvent: {}
+[19.778636] (-) TimerEvent: {}
+[19.883066] (-) TimerEvent: {}
+[19.920709] (three_node_pkg) CommandEnded: {'returncode': 0}
+[19.988356] (-) TimerEvent: {}
+[20.010901] (three_node_pkg) JobEnded: {'identifier': 'three_node_pkg', 'rc': 0}
+[20.017131] (-) EventReactorShutdown: {}
