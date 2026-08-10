@@ -1,0 +1,17 @@
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg/__init__.py
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg/publisher.py
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg/subscriber.py
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/__init__.cpython-312.pyc
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/publisher.cpython-312.pyc
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg/__pycache__/subscriber.cpython-312.pyc
+/home/yuchel/shared_repo/install/test_pkg/share/ament_index/resource_index/packages/test_pkg
+/home/yuchel/shared_repo/install/test_pkg/share/test_pkg/package.xml
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/entry_points.txt
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/top_level.txt
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/requires.txt
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info/zip-safe
+/home/yuchel/shared_repo/install/test_pkg/lib/test_pkg/publisher
+/home/yuchel/shared_repo/install/test_pkg/lib/test_pkg/subscriber
