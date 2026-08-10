@@ -1,0 +1,45 @@
+[2.837s] Invoking command in '/home/yuchel/shared_repo/src/three_node_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/three_node_pkg build --build-base /home/yuchel/shared_repo/build/three_node_pkg/build install --record /home/yuchel/shared_repo/build/three_node_pkg/install.log --install-scripts $base/lib/three_node_pkg --single-version-externally-managed install_data
+[3.230s] running egg_info
+[3.230s] creating ../../build/three_node_pkg/three_node_pkg.egg-info
+[3.258s] writing ../../build/three_node_pkg/three_node_pkg.egg-info/PKG-INFO
+[3.258s] writing dependency_links to ../../build/three_node_pkg/three_node_pkg.egg-info/dependency_links.txt
+[3.259s] writing entry points to ../../build/three_node_pkg/three_node_pkg.egg-info/entry_points.txt
+[3.259s] writing requirements to ../../build/three_node_pkg/three_node_pkg.egg-info/requires.txt
+[3.298s] writing top-level names to ../../build/three_node_pkg/three_node_pkg.egg-info/top_level.txt
+[3.299s] writing manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'
+[3.299s] reading manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'
+[3.301s] writing manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'
+[3.304s] running build
+[3.305s] running build_py
+[3.311s] creating /home/yuchel/shared_repo/build/three_node_pkg/build
+[3.312s] creating /home/yuchel/shared_repo/build/three_node_pkg/build/lib
+[3.312s] creating /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg
+[3.312s] copying three_node_pkg/control_node.py -> /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg
+[3.316s] copying three_node_pkg/__init__.py -> /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg
+[3.317s] copying three_node_pkg/display_node.py -> /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg
+[3.317s] copying three_node_pkg/input_node.py -> /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg
+[3.317s] running install
+[3.327s] running install_lib
+[3.346s] creating /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg
+[3.346s] copying /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg/control_node.py -> /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg
+[3.346s] copying /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg/__init__.py -> /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg
+[3.346s] copying /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg/display_node.py -> /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg
+[3.347s] copying /home/yuchel/shared_repo/build/three_node_pkg/build/lib/three_node_pkg/input_node.py -> /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg
+[3.349s] byte-compiling /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg/control_node.py to control_node.cpython-312.pyc
+[3.350s] byte-compiling /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg/__init__.py to __init__.cpython-312.pyc
+[3.351s] byte-compiling /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg/display_node.py to display_node.cpython-312.pyc
+[3.352s] byte-compiling /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg/input_node.py to input_node.cpython-312.pyc
+[3.353s] running install_data
+[3.354s] creating /home/yuchel/shared_repo/install/three_node_pkg/share/ament_index
+[3.355s] creating /home/yuchel/shared_repo/install/three_node_pkg/share/ament_index/resource_index
+[3.355s] creating /home/yuchel/shared_repo/install/three_node_pkg/share/ament_index/resource_index/packages
+[3.355s] copying resource/three_node_pkg -> /home/yuchel/shared_repo/install/three_node_pkg/share/ament_index/resource_index/packages
+[3.355s] copying package.xml -> /home/yuchel/shared_repo/install/three_node_pkg/share/three_node_pkg
+[3.355s] running install_egg_info
+[3.375s] Copying ../../build/three_node_pkg/three_node_pkg.egg-info to /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg-0.0.0-py3.12.egg-info
+[3.377s] running install_scripts
+[3.535s] Installing control script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg
+[3.535s] Installing display script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg
+[3.535s] Installing input script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg
+[3.535s] writing list of installed files to '/home/yuchel/shared_repo/build/three_node_pkg/install.log'
+[3.576s] Invoked command in '/home/yuchel/shared_repo/src/three_node_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/three_node_pkg build --build-base /home/yuchel/shared_repo/build/three_node_pkg/build install --record /home/yuchel/shared_repo/build/three_node_pkg/install.log --install-scripts $base/lib/three_node_pkg --single-version-externally-managed install_data

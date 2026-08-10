@@ -1,0 +1,4 @@
+[console_scripts]
+control = three_node_pkg.control_node:main
+display = three_node_pkg.display_node:main
+input = three_node_pkg.input_node:main
