@@ -8,6 +8,7 @@ setup.py
 ../../build/test_pkg/test_pkg.egg-info/requires.txt
 ../../build/test_pkg/test_pkg.egg-info/top_level.txt
 ../../build/test_pkg/test_pkg.egg-info/zip-safe
+launch/system.launch.py
 resource/test_pkg
 test/test_copyright.py
 test/test_flake8.py

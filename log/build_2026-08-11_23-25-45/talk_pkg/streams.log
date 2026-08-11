@@ -1,0 +1,21 @@
+[2.977s] Invoking command in '/home/yuchel/shared_repo/src/talk_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/talk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talk_pkg build --build-base /home/yuchel/shared_repo/build/talk_pkg/build install --record /home/yuchel/shared_repo/build/talk_pkg/install.log --install-scripts $base/lib/talk_pkg --single-version-externally-managed install_data
+[3.294s] running egg_info
+[3.334s] writing ../../build/talk_pkg/talk_pkg.egg-info/PKG-INFO
+[3.380s] writing dependency_links to ../../build/talk_pkg/talk_pkg.egg-info/dependency_links.txt
+[3.380s] writing entry points to ../../build/talk_pkg/talk_pkg.egg-info/entry_points.txt
+[3.380s] writing requirements to ../../build/talk_pkg/talk_pkg.egg-info/requires.txt
+[3.380s] writing top-level names to ../../build/talk_pkg/talk_pkg.egg-info/top_level.txt
+[3.380s] reading manifest file '../../build/talk_pkg/talk_pkg.egg-info/SOURCES.txt'
+[3.393s] writing manifest file '../../build/talk_pkg/talk_pkg.egg-info/SOURCES.txt'
+[3.394s] running build
+[3.394s] running build_py
+[3.394s] running install
+[3.401s] running install_lib
+[3.430s] running install_data
+[3.430s] running install_egg_info
+[3.455s] removing '/home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[3.456s] Copying ../../build/talk_pkg/talk_pkg.egg-info to /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg-0.0.0-py3.12.egg-info
+[3.459s] running install_scripts
+[3.727s] Installing service script to /home/yuchel/shared_repo/install/talk_pkg/lib/talk_pkg
+[3.731s] writing list of installed files to '/home/yuchel/shared_repo/build/talk_pkg/install.log'
+[3.786s] Invoked command in '/home/yuchel/shared_repo/src/talk_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/talk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talk_pkg build --build-base /home/yuchel/shared_repo/build/talk_pkg/build install --record /home/yuchel/shared_repo/build/talk_pkg/install.log --install-scripts $base/lib/talk_pkg --single-version-externally-managed install_data

@@ -8,6 +8,7 @@ setup.py
 ../../build/three_node_pkg/three_node_pkg.egg-info/requires.txt
 ../../build/three_node_pkg/three_node_pkg.egg-info/top_level.txt
 ../../build/three_node_pkg/three_node_pkg.egg-info/zip-safe
+launch/system.launch.py
 resource/three_node_pkg
 test/test_copyright.py
 test/test_flake8.py
