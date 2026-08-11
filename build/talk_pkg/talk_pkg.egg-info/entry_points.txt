@@ -1,0 +1,2 @@
+[console_scripts]
+service = talk_pkg.service_node:main

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: talk-pkg
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: yuchel
+Maintainer-email: e1105025113@oit.ac.jp
+License: TODO: License declaration
+Provides-Extra: test

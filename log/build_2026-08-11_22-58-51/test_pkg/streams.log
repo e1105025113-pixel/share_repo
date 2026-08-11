@@ -1,0 +1,22 @@
+[1.700s] Invoking command in '/home/yuchel/shared_repo/src/test_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/yuchel/shared_repo/build/test_pkg/build install --record /home/yuchel/shared_repo/build/test_pkg/install.log --install-scripts $base/lib/test_pkg --single-version-externally-managed install_data
+[2.045s] running egg_info
+[2.073s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[2.080s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[2.081s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[2.081s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[2.081s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[2.132s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[2.136s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[2.140s] running build
+[2.140s] running build_py
+[2.141s] running install
+[2.147s] running install_lib
+[2.177s] running install_data
+[2.177s] running install_egg_info
+[2.207s] removing '/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.208s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages/test_pkg-0.0.0-py3.12.egg-info
+[2.212s] running install_scripts
+[2.420s] Installing publisher script to /home/yuchel/shared_repo/install/test_pkg/lib/test_pkg
+[2.421s] Installing subscriber script to /home/yuchel/shared_repo/install/test_pkg/lib/test_pkg
+[2.423s] writing list of installed files to '/home/yuchel/shared_repo/build/test_pkg/install.log'
+[2.491s] Invoked command in '/home/yuchel/shared_repo/src/test_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/yuchel/shared_repo/build/test_pkg/build install --record /home/yuchel/shared_repo/build/test_pkg/install.log --install-scripts $base/lib/test_pkg --single-version-externally-managed install_data

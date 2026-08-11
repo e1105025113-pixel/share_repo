@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/talk_pkg/talk_pkg.egg-info
+writing ../../build/talk_pkg/talk_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/talk_pkg/talk_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/talk_pkg/talk_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/talk_pkg/talk_pkg.egg-info/requires.txt
+writing top-level names to ../../build/talk_pkg/talk_pkg.egg-info/top_level.txt
+writing manifest file '../../build/talk_pkg/talk_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/talk_pkg/talk_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/talk_pkg/talk_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuchel/shared_repo/build/talk_pkg/build
+creating /home/yuchel/shared_repo/build/talk_pkg/build/lib
+creating /home/yuchel/shared_repo/build/talk_pkg/build/lib/talk_pkg
+copying talk_pkg/__init__.py -> /home/yuchel/shared_repo/build/talk_pkg/build/lib/talk_pkg
+copying talk_pkg/service_node.py -> /home/yuchel/shared_repo/build/talk_pkg/build/lib/talk_pkg
+running install
+running install_lib
+creating /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg
+copying /home/yuchel/shared_repo/build/talk_pkg/build/lib/talk_pkg/__init__.py -> /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg
+copying /home/yuchel/shared_repo/build/talk_pkg/build/lib/talk_pkg/service_node.py -> /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg
+byte-compiling /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg/service_node.py to service_node.cpython-312.pyc
+running install_data
+creating /home/yuchel/shared_repo/install/talk_pkg/share/ament_index
+creating /home/yuchel/shared_repo/install/talk_pkg/share/ament_index/resource_index
+creating /home/yuchel/shared_repo/install/talk_pkg/share/ament_index/resource_index/packages
+copying resource/talk_pkg -> /home/yuchel/shared_repo/install/talk_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuchel/shared_repo/install/talk_pkg/share/talk_pkg
+running install_egg_info
+Copying ../../build/talk_pkg/talk_pkg.egg-info to /home/yuchel/shared_repo/install/talk_pkg/lib/python3.12/site-packages/talk_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing talk script to /home/yuchel/shared_repo/install/talk_pkg/lib/talk_pkg
+writing list of installed files to '/home/yuchel/shared_repo/build/talk_pkg/install.log'
