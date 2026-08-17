@@ -1,0 +1,23 @@
+[1.571s] Invoking command in '/home/yuchel/shared_repo/src/three_node_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/three_node_pkg build --build-base /home/yuchel/shared_repo/build/three_node_pkg/build install --record /home/yuchel/shared_repo/build/three_node_pkg/install.log --install-scripts $base/lib/three_node_pkg --single-version-externally-managed install_data
+[1.976s] running egg_info
+[2.028s] writing ../../build/three_node_pkg/three_node_pkg.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../../build/three_node_pkg/three_node_pkg.egg-info/dependency_links.txt
+[2.029s] writing entry points to ../../build/three_node_pkg/three_node_pkg.egg-info/entry_points.txt
+[2.029s] writing requirements to ../../build/three_node_pkg/three_node_pkg.egg-info/requires.txt
+[2.029s] writing top-level names to ../../build/three_node_pkg/three_node_pkg.egg-info/top_level.txt
+[2.072s] reading manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'
+[2.079s] writing manifest file '../../build/three_node_pkg/three_node_pkg.egg-info/SOURCES.txt'
+[2.084s] running build
+[2.084s] running build_py
+[2.097s] running install
+[2.107s] running install_lib
+[2.125s] running install_data
+[2.125s] running install_egg_info
+[2.145s] removing '/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.148s] Copying ../../build/three_node_pkg/three_node_pkg.egg-info to /home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages/three_node_pkg-0.0.0-py3.12.egg-info
+[2.150s] running install_scripts
+[2.316s] Installing control script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg
+[2.323s] Installing display script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg
+[2.323s] Installing input script to /home/yuchel/shared_repo/install/three_node_pkg/lib/three_node_pkg
+[2.323s] writing list of installed files to '/home/yuchel/shared_repo/build/three_node_pkg/install.log'
+[2.395s] Invoked command in '/home/yuchel/shared_repo/src/three_node_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/three_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/three_node_pkg build --build-base /home/yuchel/shared_repo/build/three_node_pkg/build install --record /home/yuchel/shared_repo/build/three_node_pkg/install.log --install-scripts $base/lib/three_node_pkg --single-version-externally-managed install_data

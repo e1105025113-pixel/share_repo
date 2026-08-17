@@ -1,0 +1,35 @@
+[2.394s] Invoking command in '/home/yuchel/shared_repo/src/gakurobo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/gakurobo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gakurobo build --build-base /home/yuchel/shared_repo/build/gakurobo/build install --record /home/yuchel/shared_repo/build/gakurobo/install.log --install-scripts $base/lib/gakurobo --single-version-externally-managed install_data
+[2.823s] running egg_info
+[2.824s] creating ../../build/gakurobo/gakurobo.egg-info
+[2.838s] writing ../../build/gakurobo/gakurobo.egg-info/PKG-INFO
+[2.838s] writing dependency_links to ../../build/gakurobo/gakurobo.egg-info/dependency_links.txt
+[2.838s] writing requirements to ../../build/gakurobo/gakurobo.egg-info/requires.txt
+[2.854s] writing top-level names to ../../build/gakurobo/gakurobo.egg-info/top_level.txt
+[2.854s] writing manifest file '../../build/gakurobo/gakurobo.egg-info/SOURCES.txt'
+[2.879s] reading manifest file '../../build/gakurobo/gakurobo.egg-info/SOURCES.txt'
+[2.899s] writing manifest file '../../build/gakurobo/gakurobo.egg-info/SOURCES.txt'
+[2.900s] running build
+[2.900s] running build_py
+[2.900s] creating /home/yuchel/shared_repo/build/gakurobo/build
+[2.900s] creating /home/yuchel/shared_repo/build/gakurobo/build/lib
+[2.900s] creating /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo
+[2.900s] copying gakurobo/config.py -> /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo
+[2.900s] copying gakurobo/__init__.py -> /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo
+[2.900s] running install
+[2.900s] running install_lib
+[2.927s] creating /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo
+[2.929s] copying /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo/config.py -> /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo
+[2.931s] copying /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo/__init__.py -> /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo
+[2.937s] byte-compiling /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo/config.py to config.cpython-312.pyc
+[2.938s] byte-compiling /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo/__init__.py to __init__.cpython-312.pyc
+[2.939s] running install_data
+[2.939s] creating /home/yuchel/shared_repo/install/gakurobo/share/ament_index
+[2.941s] creating /home/yuchel/shared_repo/install/gakurobo/share/ament_index/resource_index
+[2.942s] creating /home/yuchel/shared_repo/install/gakurobo/share/ament_index/resource_index/packages
+[2.942s] copying resource/gakurobo -> /home/yuchel/shared_repo/install/gakurobo/share/ament_index/resource_index/packages
+[2.960s] copying package.xml -> /home/yuchel/shared_repo/install/gakurobo/share/gakurobo
+[2.961s] running install_egg_info
+[2.971s] Copying ../../build/gakurobo/gakurobo.egg-info to /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo-0.0.0-py3.12.egg-info
+[2.972s] running install_scripts
+[3.111s] writing list of installed files to '/home/yuchel/shared_repo/build/gakurobo/install.log'
+[3.147s] Invoked command in '/home/yuchel/shared_repo/src/gakurobo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/gakurobo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gakurobo build --build-base /home/yuchel/shared_repo/build/gakurobo/build install --record /home/yuchel/shared_repo/build/gakurobo/install.log --install-scripts $base/lib/gakurobo --single-version-externally-managed install_data

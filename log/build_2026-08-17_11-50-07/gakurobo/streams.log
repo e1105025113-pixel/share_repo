@@ -1,0 +1,27 @@
+[1.649s] Invoking command in '/home/yuchel/shared_repo/src/gakurobo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/gakurobo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gakurobo build --build-base /home/yuchel/shared_repo/build/gakurobo/build install --record /home/yuchel/shared_repo/build/gakurobo/install.log --install-scripts $base/lib/gakurobo --single-version-externally-managed install_data
+[1.836s] running egg_info
+[1.859s] writing ../../build/gakurobo/gakurobo.egg-info/PKG-INFO
+[1.860s] writing dependency_links to ../../build/gakurobo/gakurobo.egg-info/dependency_links.txt
+[1.860s] writing entry points to ../../build/gakurobo/gakurobo.egg-info/entry_points.txt
+[1.860s] writing requirements to ../../build/gakurobo/gakurobo.egg-info/requires.txt
+[1.860s] writing top-level names to ../../build/gakurobo/gakurobo.egg-info/top_level.txt
+[1.890s] reading manifest file '../../build/gakurobo/gakurobo.egg-info/SOURCES.txt'
+[1.896s] writing manifest file '../../build/gakurobo/gakurobo.egg-info/SOURCES.txt'
+[1.896s] running build
+[1.896s] running build_py
+[1.896s] copying gakurobo/app.py -> /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo
+[1.897s] copying gakurobo/timer_manager.py -> /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo
+[1.897s] running install
+[1.917s] running install_lib
+[1.918s] copying /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo/app.py -> /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo
+[1.918s] copying /home/yuchel/shared_repo/build/gakurobo/build/lib/gakurobo/timer_manager.py -> /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo
+[1.918s] byte-compiling /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo/app.py to app.cpython-312.pyc
+[1.918s] byte-compiling /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo/timer_manager.py to timer_manager.cpython-312.pyc
+[1.930s] running install_data
+[1.931s] running install_egg_info
+[1.961s] removing '/home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.962s] Copying ../../build/gakurobo/gakurobo.egg-info to /home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages/gakurobo-0.0.0-py3.12.egg-info
+[1.963s] running install_scripts
+[2.175s] Installing scoreboard script to /home/yuchel/shared_repo/install/gakurobo/lib/gakurobo
+[2.178s] writing list of installed files to '/home/yuchel/shared_repo/build/gakurobo/install.log'
+[2.230s] Invoked command in '/home/yuchel/shared_repo/src/gakurobo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/gakurobo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/gakurobo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gakurobo build --build-base /home/yuchel/shared_repo/build/gakurobo/build install --record /home/yuchel/shared_repo/build/gakurobo/install.log --install-scripts $base/lib/gakurobo --single-version-externally-managed install_data

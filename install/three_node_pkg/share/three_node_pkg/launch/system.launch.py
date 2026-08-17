@@ -3,10 +3,17 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 	return LaunchDescription([
+		
 		Node(
 			package='three_node_pkg',
-			executable='input',
-			name='input',
+			executable='control',
+			name='control',
 			output='screen',
 		),
+		Node(
+			package='three_node_pkg',
+			executable='display',
+			name='display',
+			output='screen',
+		)
 	])

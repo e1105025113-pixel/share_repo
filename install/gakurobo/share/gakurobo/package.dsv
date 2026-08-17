@@ -1,0 +1,4 @@
+source;share/gakurobo/hook/pythonpath.dsv
+source;share/gakurobo/hook/pythonpath.sh
+source;share/gakurobo/hook/ament_prefix_path.dsv
+source;share/gakurobo/hook/ament_prefix_path.sh
