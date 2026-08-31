@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+
+<robot name="tr_robot">
+
+  <!-- ================================= -->
+  <!-- TR本体 -->
+  <!-- 700 x 700 x 700 mm -->
+  <!-- ================================= -->
+
+  <link name="base_link">
+
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.7 0.7 0.7"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.7 0.7 0.7"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="20.0"/>
+      <inertia
+        ixx="1.0"
+        ixy="0"
+        ixz="0"
+        iyy="1.0"
+        iyz="0"
+        izz="1.0"/>
+    </inertial>
+
+  </link>
+
+
+  <!-- ================================= -->
+  <!-- LF 左前 -->
+  <!-- ================================= -->
+
+  <link name="lf_steering_link">
+
+    <visual>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="lf_steering_joint" type="revolute">
+
+    <parent link="base_link"/>
+    <child link="lf_steering_link"/>
+
+    <origin xyz="0.27 0.27 -0.30"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="20"
+      velocity="5"/>
+
+  </joint>
+
+
+  <link name="lf_wheel">
+
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="lf_wheel_joint" type="continuous">
+
+    <parent link="lf_steering_link"/>
+    <child link="lf_wheel"/>
+
+    <origin xyz="0 0 -0.08"/>
+
+    <axis xyz="0 1 0"/>
+
+  </joint>
+
+
+  <!-- ================================= -->
+  <!-- RF 右前 -->
+  <!-- ================================= -->
+
+  <link name="rf_steering_link">
+
+    <visual>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="rf_steering_joint" type="revolute">
+
+    <parent link="base_link"/>
+    <child link="rf_steering_link"/>
+
+    <origin xyz="0.27 -0.27 -0.30"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="20"
+      velocity="5"/>
+
+  </joint>
+
+
+  <link name="rf_wheel">
+
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="rf_wheel_joint" type="continuous">
+
+    <parent link="rf_steering_link"/>
+    <child link="rf_wheel"/>
+
+    <origin xyz="0 0 -0.08"/>
+
+    <axis xyz="0 1 0"/>
+
+  </joint>
+
+
+  <!-- ================================= -->
+  <!-- LB 左後 -->
+  <!-- ================================= -->
+
+  <link name="lb_steering_link">
+
+    <visual>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="lb_steering_joint" type="revolute">
+
+    <parent link="base_link"/>
+    <child link="lb_steering_link"/>
+
+    <origin xyz="-0.27 0.27 -0.30"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="20"
+      velocity="5"/>
+
+  </joint>
+
+
+  <link name="lb_wheel">
+
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="lb_wheel_joint" type="continuous">
+
+    <parent link="lb_steering_link"/>
+    <child link="lb_wheel"/>
+
+    <origin xyz="0 0 -0.08"/>
+
+    <axis xyz="0 1 0"/>
+
+  </joint>
+
+
+  <!-- ================================= -->
+  <!-- RB 右後 -->
+  <!-- ================================= -->
+
+  <link name="rb_steering_link">
+
+    <visual>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="rb_steering_joint" type="revolute">
+
+    <parent link="base_link"/>
+    <child link="rb_steering_link"/>
+
+    <origin xyz="-0.27 -0.27 -0.30"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="20"
+      velocity="5"/>
+
+  </joint>
+
+
+  <link name="rb_wheel">
+
+    <visual>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <origin rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder radius="0.1" length="0.06"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0"
+        ixz="0"
+        iyy="0.01"
+        iyz="0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+  <joint name="rb_wheel_joint" type="continuous">
+
+    <parent link="rb_steering_link"/>
+    <child link="rb_wheel"/>
+
+    <origin xyz="0 0 -0.08"/>
+
+    <axis xyz="0 1 0"/>
+
+  </joint>
+
+  <!-- ================================= -->
+  <!-- Gazebo Joint Controller -->
+  <!-- ================================= -->
+
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>lf_steering_joint</joint_name>
+      <topic>/model/tr_robot/joint/lf_steering_joint/cmd_pos</topic>
+    </plugin>
+  </gazebo>
+
+</robot>
+

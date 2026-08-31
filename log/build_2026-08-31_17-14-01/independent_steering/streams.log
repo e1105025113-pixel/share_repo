@@ -1,0 +1,36 @@
+[3.098s] Invoking command in '/home/yuchel/shared_repo/src/independent_steering': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/independent_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/independent_steering build --build-base /home/yuchel/shared_repo/build/independent_steering/build install --record /home/yuchel/shared_repo/build/independent_steering/install.log --install-scripts $base/lib/independent_steering --single-version-externally-managed install_data
+[3.507s] running egg_info
+[3.509s] creating ../../build/independent_steering/independent_steering.egg-info
+[3.509s] writing ../../build/independent_steering/independent_steering.egg-info/PKG-INFO
+[3.509s] writing dependency_links to ../../build/independent_steering/independent_steering.egg-info/dependency_links.txt
+[3.521s] writing requirements to ../../build/independent_steering/independent_steering.egg-info/requires.txt
+[3.522s] writing top-level names to ../../build/independent_steering/independent_steering.egg-info/top_level.txt
+[3.522s] writing manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+[3.571s] reading manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+[3.574s] writing manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+[3.575s] running build
+[3.575s] running build_py
+[3.576s] creating /home/yuchel/shared_repo/build/independent_steering/build
+[3.576s] creating /home/yuchel/shared_repo/build/independent_steering/build/lib
+[3.576s] creating /home/yuchel/shared_repo/build/independent_steering/build/lib/independent_steering
+[3.580s] copying independent_steering/__init__.py -> /home/yuchel/shared_repo/build/independent_steering/build/lib/independent_steering
+[3.581s] running install
+[3.591s] running install_lib
+[3.637s] creating /home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering
+[3.637s] copying /home/yuchel/shared_repo/build/independent_steering/build/lib/independent_steering/__init__.py -> /home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering
+[3.638s] byte-compiling /home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering/__init__.py to __init__.cpython-312.pyc
+[3.640s] running install_data
+[3.640s] creating /home/yuchel/shared_repo/install/independent_steering/share/ament_index
+[3.641s] creating /home/yuchel/shared_repo/install/independent_steering/share/ament_index/resource_index
+[3.642s] creating /home/yuchel/shared_repo/install/independent_steering/share/ament_index/resource_index/packages
+[3.642s] copying resource/independent_steering -> /home/yuchel/shared_repo/install/independent_steering/share/ament_index/resource_index/packages
+[3.642s] copying package.xml -> /home/yuchel/shared_repo/install/independent_steering/share/independent_steering
+[3.643s] creating /home/yuchel/shared_repo/install/independent_steering/share/independent_steering/urdf
+[3.643s] copying urdf/tr.urdf -> /home/yuchel/shared_repo/install/independent_steering/share/independent_steering/urdf
+[3.643s] creating /home/yuchel/shared_repo/install/independent_steering/share/independent_steering/launch
+[3.643s] copying launch/simulation.launch.py -> /home/yuchel/shared_repo/install/independent_steering/share/independent_steering/launch
+[3.661s] running install_egg_info
+[3.678s] Copying ../../build/independent_steering/independent_steering.egg-info to /home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering-0.0.0-py3.12.egg-info
+[3.680s] running install_scripts
+[3.885s] writing list of installed files to '/home/yuchel/shared_repo/build/independent_steering/install.log'
+[3.969s] Invoked command in '/home/yuchel/shared_repo/src/independent_steering' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/independent_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/independent_steering build --build-base /home/yuchel/shared_repo/build/independent_steering/build install --record /home/yuchel/shared_repo/build/independent_steering/install.log --install-scripts $base/lib/independent_steering --single-version-externally-managed install_data

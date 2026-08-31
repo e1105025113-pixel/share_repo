@@ -1,0 +1,20 @@
+[2.100s] Invoking command in '/home/yuchel/shared_repo/src/Rviz2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/Rviz2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/Rviz2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rviz2 build --build-base /home/yuchel/shared_repo/build/Rviz2/build install --record /home/yuchel/shared_repo/build/Rviz2/install.log --install-scripts $base/lib/Rviz2 --single-version-externally-managed install_data
+[2.584s] running egg_info
+[2.616s] writing ../../build/Rviz2/Rviz2.egg-info/PKG-INFO
+[2.634s] writing dependency_links to ../../build/Rviz2/Rviz2.egg-info/dependency_links.txt
+[2.634s] writing requirements to ../../build/Rviz2/Rviz2.egg-info/requires.txt
+[2.634s] writing top-level names to ../../build/Rviz2/Rviz2.egg-info/top_level.txt
+[2.682s] reading manifest file '../../build/Rviz2/Rviz2.egg-info/SOURCES.txt'
+[2.684s] writing manifest file '../../build/Rviz2/Rviz2.egg-info/SOURCES.txt'
+[2.685s] running build
+[2.686s] running build_py
+[2.686s] running install
+[2.710s] running install_lib
+[2.761s] running install_data
+[2.761s] copying urdf/test.urdf -> /home/yuchel/shared_repo/install/Rviz2/share/Rviz2/urdf
+[2.762s] running install_egg_info
+[2.821s] removing '/home/yuchel/shared_repo/install/Rviz2/lib/python3.12/site-packages/Rviz2-0.0.0-py3.12.egg-info' (and everything under it)
+[2.821s] Copying ../../build/Rviz2/Rviz2.egg-info to /home/yuchel/shared_repo/install/Rviz2/lib/python3.12/site-packages/Rviz2-0.0.0-py3.12.egg-info
+[2.822s] running install_scripts
+[3.001s] writing list of installed files to '/home/yuchel/shared_repo/build/Rviz2/install.log'
+[3.088s] Invoked command in '/home/yuchel/shared_repo/src/Rviz2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/Rviz2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/Rviz2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rviz2 build --build-base /home/yuchel/shared_repo/build/Rviz2/build install --record /home/yuchel/shared_repo/build/Rviz2/install.log --install-scripts $base/lib/Rviz2 --single-version-externally-managed install_data

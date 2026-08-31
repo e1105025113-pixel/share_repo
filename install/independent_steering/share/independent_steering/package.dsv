@@ -1,0 +1,4 @@
+source;share/independent_steering/hook/pythonpath.dsv
+source;share/independent_steering/hook/pythonpath.sh
+source;share/independent_steering/hook/ament_prefix_path.dsv
+source;share/independent_steering/hook/ament_prefix_path.sh

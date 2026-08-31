@@ -1,0 +1,4 @@
+source;share/Rviz2/hook/pythonpath.dsv
+source;share/Rviz2/hook/pythonpath.sh
+source;share/Rviz2/hook/ament_prefix_path.dsv
+source;share/Rviz2/hook/ament_prefix_path.sh

@@ -1,0 +1,20 @@
+[2.026s] Invoking command in '/home/yuchel/shared_repo/src/independent_steering': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/independent_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/independent_steering build --build-base /home/yuchel/shared_repo/build/independent_steering/build install --record /home/yuchel/shared_repo/build/independent_steering/install.log --install-scripts $base/lib/independent_steering --single-version-externally-managed install_data
+[2.497s] running egg_info
+[2.527s] writing ../../build/independent_steering/independent_steering.egg-info/PKG-INFO
+[2.561s] writing dependency_links to ../../build/independent_steering/independent_steering.egg-info/dependency_links.txt
+[2.562s] writing requirements to ../../build/independent_steering/independent_steering.egg-info/requires.txt
+[2.562s] writing top-level names to ../../build/independent_steering/independent_steering.egg-info/top_level.txt
+[2.590s] reading manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+[2.592s] writing manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+[2.593s] running build
+[2.593s] running build_py
+[2.594s] running install
+[2.620s] running install_lib
+[2.628s] running install_data
+[2.628s] copying launch/simulation.launch.py -> /home/yuchel/shared_repo/install/independent_steering/share/independent_steering/launch
+[2.629s] running install_egg_info
+[2.658s] removing '/home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering-0.0.0-py3.12.egg-info' (and everything under it)
+[2.659s] Copying ../../build/independent_steering/independent_steering.egg-info to /home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering-0.0.0-py3.12.egg-info
+[2.663s] running install_scripts
+[2.888s] writing list of installed files to '/home/yuchel/shared_repo/build/independent_steering/install.log'
+[3.036s] Invoked command in '/home/yuchel/shared_repo/src/independent_steering' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/shared_repo/build/independent_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/shared_repo/install/independent_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/independent_steering build --build-base /home/yuchel/shared_repo/build/independent_steering/build install --record /home/yuchel/shared_repo/build/independent_steering/install.log --install-scripts $base/lib/independent_steering --single-version-externally-managed install_data
