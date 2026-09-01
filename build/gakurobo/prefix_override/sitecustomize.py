@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/yuchel/shared_repo/install/gakurobo'
+    sys.prefix = sys.exec_prefix = '/home/yuchel/share_repo/install/gakurobo'

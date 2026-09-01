@@ -407,6 +407,10 @@
     </plugin>
   </gazebo>
 
+    <!-- ================================= -->
+  <!-- Gazebo Joint Position Controllers -->
+  <!-- ================================= -->
+
   <gazebo>
     <plugin
       filename="gz-sim-joint-position-controller-system"
@@ -416,5 +420,31 @@
     </plugin>
   </gazebo>
 
-</robot>
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>rf_steering_joint</joint_name>
+      <topic>/model/tr_robot/joint/rf_steering_joint/cmd_pos</topic>
+    </plugin>
+  </gazebo>
 
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>lb_steering_joint</joint_name>
+      <topic>/model/tr_robot/joint/lb_steering_joint/cmd_pos</topic>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+      <joint_name>rb_steering_joint</joint_name>
+      <topic>/model/tr_robot/joint/rb_steering_joint/cmd_pos</topic>
+    </plugin>
+  </gazebo>
+
+</robot>

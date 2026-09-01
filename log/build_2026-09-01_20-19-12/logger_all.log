@@ -1,0 +1,327 @@
+[0.281s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.281s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a6a27ed8560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a6a281ec800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a6a281ec800>>)
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.436s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuchel/share_repo'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2026_08_10-22_53_29) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/gakurobo) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gakurobo' with type 'ros.ament_python' and name 'gakurobo'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/independent_steering) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/independent_steering' with type 'ros.ament_python' and name 'independent_steering'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/talk_pkg) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/talk_pkg' with type 'ros.ament_python' and name 'talk_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pkg) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_pkg' with type 'ros.ament_python' and name 'test_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extension 'ignore_ament_install'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extensions ['colcon_pkg']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/three_node_pkg) by extension 'ros'
+[0.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/three_node_pkg' with type 'ros.ament_python' and name 'three_node_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extensions ['python_setup_py']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/yasiki-test) by extension 'python_setup_py'
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'gakurobo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.553s] DEBUG:colcon.colcon_core.verb:Building package 'gakurobo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuchel/share_repo/build/gakurobo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuchel/share_repo/install/gakurobo', 'merge_install': False, 'path': '/home/yuchel/share_repo/src/gakurobo', 'symlink_install': False, 'test_result_base': None}
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'cmake_target' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'cmake_clean_cache' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'cmake_clean_first' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'cmake_force_configure' from command line to 'False'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'ament_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'catkin_cmake_args' from command line to 'None'
+[0.553s] Level 5:colcon.colcon_core.verb:set package 'independent_steering' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.554s] DEBUG:colcon.colcon_core.verb:Building package 'independent_steering' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuchel/share_repo/build/independent_steering', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuchel/share_repo/install/independent_steering', 'merge_install': False, 'path': '/home/yuchel/share_repo/src/independent_steering', 'symlink_install': False, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'talk_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.554s] DEBUG:colcon.colcon_core.verb:Building package 'talk_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuchel/share_repo/build/talk_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuchel/share_repo/install/talk_pkg', 'merge_install': False, 'path': '/home/yuchel/share_repo/src/talk_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'test_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'test_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuchel/share_repo/build/test_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuchel/share_repo/install/test_pkg', 'merge_install': False, 'path': '/home/yuchel/share_repo/src/test_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'cmake_target' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.556s] Level 5:colcon.colcon_core.verb:set package 'three_node_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.556s] DEBUG:colcon.colcon_core.verb:Building package 'three_node_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuchel/share_repo/build/three_node_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuchel/share_repo/install/three_node_pkg', 'merge_install': False, 'path': '/home/yuchel/share_repo/src/three_node_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.556s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.558s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.558s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuchel/share_repo/src/gakurobo' with build type 'ament_python'
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('gakurobo', 'ament_prefix_path')
+[0.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/hook/ament_prefix_path.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/hook/ament_prefix_path.sh'
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.594s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuchel/share_repo/src/independent_steering' with build type 'ament_python'
+[0.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('independent_steering', 'ament_prefix_path')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/hook/ament_prefix_path.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/hook/ament_prefix_path.sh'
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.604s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuchel/share_repo/src/talk_pkg' with build type 'ament_python'
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('talk_pkg', 'ament_prefix_path')
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/hook/ament_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/hook/ament_prefix_path.sh'
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.614s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuchel/share_repo/src/test_pkg' with build type 'ament_python'
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'ament_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/hook/ament_prefix_path.dsv'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/hook/ament_prefix_path.sh'
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.953s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuchel/share_repo/src/gakurobo'
+[0.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.295s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuchel/share_repo/src/independent_steering'
+[1.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.662s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuchel/share_repo/src/talk_pkg'
+[1.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.028s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuchel/share_repo/src/test_pkg'
+[2.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.749s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, install_scripts, sdist, alias, symlink_data, build_py, build_ext, bdist, upload, install_data, compile_catalog, install_egg_info, init_catalog, install_lib, editable_wheel, check, rotate, install, build, develop, upload_docs, extract_messages, egg_info, install_headers, update_catalog, build_scripts, test, register, saveopts, build_clib, bdist_rpm, bdist_dumb, easy_install, clean, setopt, dist_info
+[3.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuchel/share_repo/src/talk_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/talk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/talk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talk_pkg build --build-base /home/yuchel/share_repo/build/talk_pkg/build install --record /home/yuchel/share_repo/build/talk_pkg/install.log --install-scripts $base/lib/talk_pkg --single-version-externally-managed install_data
+[3.784s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, install_scripts, sdist, alias, symlink_data, build_py, build_ext, bdist, upload, install_data, compile_catalog, install_egg_info, init_catalog, install_lib, editable_wheel, check, rotate, install, build, develop, upload_docs, extract_messages, egg_info, install_headers, update_catalog, build_scripts, test, register, saveopts, build_clib, bdist_rpm, bdist_dumb, easy_install, clean, setopt, dist_info
+[3.788s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, install_scripts, sdist, alias, symlink_data, build_py, build_ext, bdist, upload, install_data, compile_catalog, install_egg_info, init_catalog, install_lib, editable_wheel, check, rotate, install, build, develop, upload_docs, extract_messages, egg_info, install_headers, update_catalog, build_scripts, test, register, saveopts, build_clib, bdist_rpm, bdist_dumb, easy_install, clean, setopt, dist_info
+[3.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuchel/share_repo/src/independent_steering': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/independent_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/independent_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/independent_steering build --build-base /home/yuchel/share_repo/build/independent_steering/build install --record /home/yuchel/share_repo/build/independent_steering/install.log --install-scripts $base/lib/independent_steering --single-version-externally-managed install_data
+[3.795s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, install_scripts, sdist, alias, symlink_data, build_py, build_ext, bdist, upload, install_data, compile_catalog, install_egg_info, init_catalog, install_lib, editable_wheel, check, rotate, install, build, develop, upload_docs, extract_messages, egg_info, install_headers, update_catalog, build_scripts, test, register, saveopts, build_clib, bdist_rpm, bdist_dumb, easy_install, clean, setopt, dist_info
+[3.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuchel/share_repo/src/test_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/yuchel/share_repo/build/test_pkg/build install --record /home/yuchel/share_repo/build/test_pkg/install.log --install-scripts $base/lib/test_pkg --single-version-externally-managed install_data
+[3.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuchel/share_repo/src/gakurobo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/gakurobo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/gakurobo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gakurobo build --build-base /home/yuchel/share_repo/build/gakurobo/build install --record /home/yuchel/share_repo/build/gakurobo/install.log --install-scripts $base/lib/gakurobo --single-version-externally-managed install_data
+[4.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuchel/share_repo/src/test_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/test_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/test_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/yuchel/share_repo/build/test_pkg/build install --record /home/yuchel/share_repo/build/test_pkg/install.log --install-scripts $base/lib/test_pkg --single-version-externally-managed install_data
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg' for CMake module files
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg' for CMake config files
+[4.834s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg/lib'
+[4.834s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg/bin'
+[4.834s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg/lib/pkgconfig/test_pkg.pc'
+[4.835s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg/lib/python3.12/site-packages'
+[4.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pkg', 'pythonpath')
+[4.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/hook/pythonpath.dsv'
+[4.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/hook/pythonpath.sh'
+[4.839s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/test_pkg/bin'
+[4.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pkg)
+[4.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/package.dsv'
+[4.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/package.sh'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/package.bash'
+[4.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/test_pkg/share/test_pkg/package.zsh'
+[4.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuchel/share_repo/install/test_pkg/share/colcon-core/packages/test_pkg)
+[4.860s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuchel/share_repo/src/three_node_pkg' with build type 'ament_python'
+[4.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('three_node_pkg', 'ament_prefix_path')
+[4.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/hook/ament_prefix_path.dsv'
+[4.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/hook/ament_prefix_path.sh'
+[4.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.878s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering' for CMake module files
+[4.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuchel/share_repo/src/independent_steering' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/independent_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/independent_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/independent_steering build --build-base /home/yuchel/share_repo/build/independent_steering/build install --record /home/yuchel/share_repo/build/independent_steering/install.log --install-scripts $base/lib/independent_steering --single-version-externally-managed install_data
+[4.882s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering' for CMake config files
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering/lib'
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering/bin'
+[4.891s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering/lib/pkgconfig/independent_steering.pc'
+[4.891s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering/lib/python3.12/site-packages'
+[4.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('independent_steering', 'pythonpath')
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/hook/pythonpath.dsv'
+[4.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/hook/pythonpath.sh'
+[4.899s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/independent_steering/bin'
+[4.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(independent_steering)
+[4.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/package.dsv'
+[4.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/package.sh'
+[4.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/package.bash'
+[4.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/independent_steering/share/independent_steering/package.zsh'
+[4.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuchel/share_repo/install/independent_steering/share/colcon-core/packages/independent_steering)
+[5.294s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuchel/share_repo/src/three_node_pkg'
+[5.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo' for CMake module files
+[5.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuchel/share_repo/src/gakurobo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/gakurobo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/gakurobo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gakurobo build --build-base /home/yuchel/share_repo/build/gakurobo/build install --record /home/yuchel/share_repo/build/gakurobo/install.log --install-scripts $base/lib/gakurobo --single-version-externally-managed install_data
+[5.321s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo' for CMake config files
+[5.326s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo/lib'
+[5.326s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo/bin'
+[5.326s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo/lib/pkgconfig/gakurobo.pc'
+[5.327s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo/lib/python3.12/site-packages'
+[5.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('gakurobo', 'pythonpath')
+[5.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/hook/pythonpath.dsv'
+[5.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/hook/pythonpath.sh'
+[5.329s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/gakurobo/bin'
+[5.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gakurobo)
+[5.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/package.dsv'
+[5.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/package.sh'
+[5.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/package.bash'
+[5.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/gakurobo/share/gakurobo/package.zsh'
+[5.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuchel/share_repo/install/gakurobo/share/colcon-core/packages/gakurobo)
+[5.336s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg' for CMake module files
+[5.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuchel/share_repo/src/talk_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/talk_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/talk_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talk_pkg build --build-base /home/yuchel/share_repo/build/talk_pkg/build install --record /home/yuchel/share_repo/build/talk_pkg/install.log --install-scripts $base/lib/talk_pkg --single-version-externally-managed install_data
+[5.340s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg' for CMake config files
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg/lib'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg/bin'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg/lib/pkgconfig/talk_pkg.pc'
+[5.346s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg/lib/python3.12/site-packages'
+[5.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('talk_pkg', 'pythonpath')
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/hook/pythonpath.dsv'
+[5.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/hook/pythonpath.sh'
+[5.350s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/talk_pkg/bin'
+[5.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(talk_pkg)
+[5.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/package.dsv'
+[5.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/package.sh'
+[5.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/package.bash'
+[5.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/talk_pkg/share/talk_pkg/package.zsh'
+[5.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuchel/share_repo/install/talk_pkg/share/colcon-core/packages/talk_pkg)
+[6.226s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, install_scripts, sdist, alias, symlink_data, build_py, build_ext, bdist, upload, install_data, compile_catalog, install_egg_info, init_catalog, install_lib, editable_wheel, check, rotate, install, build, develop, upload_docs, extract_messages, egg_info, install_headers, update_catalog, build_scripts, test, register, saveopts, build_clib, bdist_rpm, bdist_dumb, easy_install, clean, setopt, dist_info
+[6.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuchel/share_repo/src/three_node_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/three_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/three_node_pkg build --build-base /home/yuchel/share_repo/build/three_node_pkg/build install --record /home/yuchel/share_repo/build/three_node_pkg/install.log --install-scripts $base/lib/three_node_pkg --single-version-externally-managed install_data
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg' for CMake module files
+[7.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuchel/share_repo/src/three_node_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/three_node_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/three_node_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/three_node_pkg build --build-base /home/yuchel/share_repo/build/three_node_pkg/build install --record /home/yuchel/share_repo/build/three_node_pkg/install.log --install-scripts $base/lib/three_node_pkg --single-version-externally-managed install_data
+[7.073s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg' for CMake config files
+[7.080s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg/lib'
+[7.080s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg/bin'
+[7.080s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg/lib/pkgconfig/three_node_pkg.pc'
+[7.080s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg/lib/python3.12/site-packages'
+[7.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('three_node_pkg', 'pythonpath')
+[7.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/hook/pythonpath.dsv'
+[7.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/hook/pythonpath.sh'
+[7.085s] Level 1:colcon.colcon_core.environment:checking '/home/yuchel/share_repo/install/three_node_pkg/bin'
+[7.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(three_node_pkg)
+[7.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/package.dsv'
+[7.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/package.sh'
+[7.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/package.bash'
+[7.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuchel/share_repo/install/three_node_pkg/share/three_node_pkg/package.zsh'
+[7.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuchel/share_repo/install/three_node_pkg/share/colcon-core/packages/three_node_pkg)
+[7.089s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.091s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.113s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.146s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuchel/share_repo/install/local_setup.sh'
+[7.148s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuchel/share_repo/install/_local_setup_util_sh.py'
+[7.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuchel/share_repo/install/setup.sh'
+[7.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuchel/share_repo/install/local_setup.bash'
+[7.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuchel/share_repo/install/setup.bash'
+[7.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuchel/share_repo/install/local_setup.zsh'
+[7.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuchel/share_repo/install/setup.zsh'
