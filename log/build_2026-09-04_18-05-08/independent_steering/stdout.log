@@ -1,0 +1,17 @@
+running egg_info
+writing ../../build/independent_steering/independent_steering.egg-info/PKG-INFO
+writing dependency_links to ../../build/independent_steering/independent_steering.egg-info/dependency_links.txt
+writing requirements to ../../build/independent_steering/independent_steering.egg-info/requires.txt
+writing top-level names to ../../build/independent_steering/independent_steering.egg-info/top_level.txt
+reading manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+writing manifest file '../../build/independent_steering/independent_steering.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/yuchel/share_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/independent_steering/independent_steering.egg-info to /home/yuchel/share_repo/install/independent_steering/lib/python3.12/site-packages/independent_steering-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yuchel/share_repo/build/independent_steering/install.log'
