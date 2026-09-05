@@ -3,12 +3,16 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
-
+from launch.actions import SetEnvironmentVariable
 import os
 
 
 def generate_launch_description():
 
+    software_rendering = SetEnvironmentVariable(
+        name='LIBGL_ALWAYS_SOFTWARE',
+        value='true'
+    )
     package_dir = get_package_share_directory(
         'independent_steering'
     )
@@ -60,6 +64,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        software_rendering,
         gazebo,
         robot_state_publisher,
         spawn_robot
