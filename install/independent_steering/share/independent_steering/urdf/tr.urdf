@@ -82,6 +82,9 @@
       upper="1.57"
       effort="20"
       velocity="5"/>
+    <dynamics
+      damping="20.0"
+      friction="2.0"/>
 
   </joint>
 
@@ -123,6 +126,9 @@
     <origin xyz="0 0 -0.10"/>
 
     <axis xyz="0 1 0"/>
+    <dynamics
+      damping="1.0"
+      friction="0.1"/>
 
   </joint>
 
@@ -172,6 +178,9 @@
       upper="1.57"
       effort="20"
       velocity="5"/>
+    <dynamics
+      damping="20.0"
+      friction="2.0"/>
 
   </joint>
 
@@ -213,6 +222,9 @@
     <origin xyz="0 0 -0.10"/>
 
     <axis xyz="0 1 0"/>
+    <dynamics
+      damping="1.0"
+      friction="0.1"/>
 
   </joint>
 
@@ -262,6 +274,9 @@
       upper="1.57"
       effort="20"
       velocity="5"/>
+    <dynamics
+      damping="20.0"
+      friction="2.0"/>
 
   </joint>
 
@@ -303,6 +318,9 @@
     <origin xyz="0 0 -0.10"/>
 
     <axis xyz="0 1 0"/>
+    <dynamics
+      damping="1.0"
+      friction="0.1"/>
 
   </joint>
 
@@ -352,6 +370,9 @@
       upper="1.57"
       effort="20"
       velocity="5"/>
+    <dynamics
+      damping="20.0"
+      friction="2.0"/>
 
   </joint>
 
@@ -393,6 +414,9 @@
     <origin xyz="0 0 -0.10"/>
 
     <axis xyz="0 1 0"/>
+    <dynamics
+      damping="1.0"
+      friction="0.1"/>
 
   </joint>
 
@@ -490,5 +514,23 @@
       <topic>/model/tr_robot/joint/rb_wheel_joint/cmd_vel</topic>
     </plugin>
   </gazebo>
+  <gazebo reference="lf_wheel">
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+  </gazebo>
 
+  <gazebo reference="rf_wheel">
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+  </gazebo>
+
+  <gazebo reference="lb_wheel">
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+  </gazebo>
+
+  <gazebo reference="rb_wheel">
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+  </gazebo>
 </robot>

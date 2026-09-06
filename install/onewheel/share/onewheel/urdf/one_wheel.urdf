@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<robot name="one_wheel_robot">
+
+  <!-- ========================= -->
+  <!-- 見えない固定支点 -->
+  <!-- ========================= -->
+  <link name="anchor_link"/>
+
+
+  <!-- ========================= -->
+  <!-- ステアリング部分 -->
+  <!-- ========================= -->
+  <link name="steering_link">
+
+    <visual>
+      <geometry>
+        <cylinder radius="0.08" length="0.15"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder radius="0.08" length="0.15"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.01"
+        iyz="0.0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+
+  <!-- ========================= -->
+  <!-- ステアリングJoint -->
+  <!-- ========================= -->
+  <joint
+    name="steering_joint"
+    type="revolute">
+
+    <parent link="anchor_link"/>
+    <child link="steering_link"/>
+
+    <origin
+      xyz="0 0 0.4"
+      rpy="0 0 0"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="20"
+      velocity="3.0"/>
+
+    <dynamics
+      damping="2.0"
+      friction="0.5"/>
+
+  </joint>
+
+
+  <!-- ========================= -->
+  <!-- 車輪取り付け部 -->
+  <!-- ========================= -->
+  <link name="wheel_mount">
+
+    <visual>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="0.12 0.12 0.12"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.5"/>
+      <inertia
+        ixx="0.001"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.001"
+        iyz="0.0"
+        izz="0.001"/>
+    </inertial>
+
+  </link>
+
+
+  <!-- ========================= -->
+  <!-- 車輪取り付け部のJoint -->
+  <!-- ========================= -->
+  <joint
+    name="mount_joint"
+    type="fixed">
+
+    <parent link="steering_link"/>
+    <child link="wheel_mount"/>
+
+    <origin
+      xyz="0 0 -0.15"
+      rpy="0 0 0"/>
+
+  </joint>
+
+
+  <!-- ========================= -->
+  <!-- 車輪 -->
+  <!-- ========================= -->
+  <link name="wheel_link">
+
+    <visual>
+      <geometry>
+        <cylinder
+          radius="0.15"
+          length="0.08"/>
+      </geometry>
+
+      <origin
+        xyz="0 0 0"
+        rpy="1.5708 0 0"/>
+    </visual>
+
+    <collision>
+      <geometry>
+        <cylinder
+          radius="0.15"
+          length="0.08"/>
+      </geometry>
+
+      <origin
+        xyz="0 0 0"
+        rpy="1.5708 0 0"/>
+    </collision>
+
+    <inertial>
+      <mass value="1.0"/>
+      <inertia
+        ixx="0.01"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.01"
+        iyz="0.0"
+        izz="0.01"/>
+    </inertial>
+
+  </link>
+
+
+  <!-- ========================= -->
+  <!-- 車輪回転Joint -->
+  <!-- ========================= -->
+  <joint
+    name="wheel_joint"
+    type="continuous">
+
+    <parent link="wheel_mount"/>
+    <child link="wheel_link"/>
+
+    <origin
+      xyz="0 0 -0.12"
+      rpy="0 0 0"/>
+
+    <axis xyz="0 1 0"/>
+
+  </joint>
+
+
+  <!-- ========================= -->
+  <!-- ステアリング位置制御 -->
+  <!-- ========================= -->
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+
+      <joint_name>steering_joint</joint_name>
+      <topic>/model/one_wheel_robot/joint/steering_joint/cmd_pos</topic>
+
+    </plugin>
+  </gazebo>
+
+
+  <!-- ========================= -->
+  <!-- 車輪位置制御 -->
+  <!-- ========================= -->
+  <gazebo>
+    <plugin
+      filename="gz-sim-joint-position-controller-system"
+      name="gz::sim::systems::JointPositionController">
+
+      <joint_name>wheel_joint</joint_name>
+      <topic>/model/one_wheel_robot/joint/wheel_joint/cmd_pos</topic>
+
+    </plugin>
+  </gazebo>
+
+</robot>

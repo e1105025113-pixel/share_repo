@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/onewheel/onewheel.egg-info
+writing ../../build/onewheel/onewheel.egg-info/PKG-INFO
+writing dependency_links to ../../build/onewheel/onewheel.egg-info/dependency_links.txt
+writing entry points to ../../build/onewheel/onewheel.egg-info/entry_points.txt
+writing requirements to ../../build/onewheel/onewheel.egg-info/requires.txt
+writing top-level names to ../../build/onewheel/onewheel.egg-info/top_level.txt
+writing manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+reading manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+writing manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuchel/share_repo/build/onewheel/build
+creating /home/yuchel/share_repo/build/onewheel/build/lib
+creating /home/yuchel/share_repo/build/onewheel/build/lib/onewheel
+copying onewheel/__init__.py -> /home/yuchel/share_repo/build/onewheel/build/lib/onewheel
+running install
+running install_lib
+creating /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel
+copying /home/yuchel/share_repo/build/onewheel/build/lib/onewheel/__init__.py -> /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel
+byte-compiling /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/1wheel -> /home/yuchel/share_repo/install/onewheel/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuchel/share_repo/install/onewheel/share/onewheel
+creating /home/yuchel/share_repo/install/onewheel/share/onewheel/urdf
+copying urdf/one_wheel.urdf -> /home/yuchel/share_repo/install/onewheel/share/onewheel/urdf
+creating /home/yuchel/share_repo/install/onewheel/share/onewheel/launch
+copying launch/simulation.launch.py -> /home/yuchel/share_repo/install/onewheel/share/onewheel/launch
+running install_egg_info
+Copying ../../build/onewheel/onewheel.egg-info to /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel-0.0.0-py3.12.egg-info
+running install_scripts
+Installing control_node script to /home/yuchel/share_repo/install/onewheel/lib/onewheel
+writing list of installed files to '/home/yuchel/share_repo/build/onewheel/install.log'

@@ -1,0 +1,21 @@
+[1.928s] Invoking command in '/home/yuchel/share_repo/src/1wheel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/onewheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onewheel build --build-base /home/yuchel/share_repo/build/onewheel/build install --record /home/yuchel/share_repo/build/onewheel/install.log --install-scripts $base/lib/onewheel --single-version-externally-managed install_data
+[2.325s] running egg_info
+[2.342s] writing ../../build/onewheel/onewheel.egg-info/PKG-INFO
+[2.343s] writing dependency_links to ../../build/onewheel/onewheel.egg-info/dependency_links.txt
+[2.344s] writing entry points to ../../build/onewheel/onewheel.egg-info/entry_points.txt
+[2.344s] writing requirements to ../../build/onewheel/onewheel.egg-info/requires.txt
+[2.345s] writing top-level names to ../../build/onewheel/onewheel.egg-info/top_level.txt
+[2.404s] reading manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+[2.405s] writing manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+[2.405s] running build
+[2.407s] running build_py
+[2.408s] running install
+[2.420s] running install_lib
+[2.443s] running install_data
+[2.444s] running install_egg_info
+[2.466s] removing '/home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel-0.0.0-py3.12.egg-info' (and everything under it)
+[2.468s] Copying ../../build/onewheel/onewheel.egg-info to /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel-0.0.0-py3.12.egg-info
+[2.469s] running install_scripts
+[2.700s] Installing control_node script to /home/yuchel/share_repo/install/onewheel/lib/onewheel
+[2.705s] writing list of installed files to '/home/yuchel/share_repo/build/onewheel/install.log'
+[3.219s] Invoked command in '/home/yuchel/share_repo/src/1wheel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/onewheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onewheel build --build-base /home/yuchel/share_repo/build/onewheel/build install --record /home/yuchel/share_repo/build/onewheel/install.log --install-scripts $base/lib/onewheel --single-version-externally-managed install_data

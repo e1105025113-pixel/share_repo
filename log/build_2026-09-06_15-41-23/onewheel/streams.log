@@ -1,0 +1,35 @@
+[2.075s] Invoking command in '/home/yuchel/share_repo/src/1wheel': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/onewheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onewheel build --build-base /home/yuchel/share_repo/build/onewheel/build install --record /home/yuchel/share_repo/build/onewheel/install.log --install-scripts $base/lib/onewheel --single-version-externally-managed install_data
+[2.450s] running egg_info
+[2.450s] creating ../../build/onewheel/onewheel.egg-info
+[2.465s] writing ../../build/onewheel/onewheel.egg-info/PKG-INFO
+[2.466s] writing dependency_links to ../../build/onewheel/onewheel.egg-info/dependency_links.txt
+[2.466s] writing entry points to ../../build/onewheel/onewheel.egg-info/entry_points.txt
+[2.467s] writing requirements to ../../build/onewheel/onewheel.egg-info/requires.txt
+[2.467s] writing top-level names to ../../build/onewheel/onewheel.egg-info/top_level.txt
+[2.467s] writing manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+[2.496s] reading manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+[2.497s] writing manifest file '../../build/onewheel/onewheel.egg-info/SOURCES.txt'
+[2.498s] running build
+[2.498s] running build_py
+[2.498s] creating /home/yuchel/share_repo/build/onewheel/build
+[2.500s] creating /home/yuchel/share_repo/build/onewheel/build/lib
+[2.500s] creating /home/yuchel/share_repo/build/onewheel/build/lib/onewheel
+[2.500s] copying onewheel/__init__.py -> /home/yuchel/share_repo/build/onewheel/build/lib/onewheel
+[2.500s] running install
+[2.505s] running install_lib
+[2.523s] creating /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel
+[2.523s] copying /home/yuchel/share_repo/build/onewheel/build/lib/onewheel/__init__.py -> /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel
+[2.523s] byte-compiling /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel/__init__.py to __init__.cpython-312.pyc
+[2.523s] running install_data
+[2.523s] copying resource/1wheel -> /home/yuchel/share_repo/install/onewheel/share/ament_index/resource_index/packages
+[2.524s] copying package.xml -> /home/yuchel/share_repo/install/onewheel/share/onewheel
+[2.524s] creating /home/yuchel/share_repo/install/onewheel/share/onewheel/urdf
+[2.524s] copying urdf/one_wheel.urdf -> /home/yuchel/share_repo/install/onewheel/share/onewheel/urdf
+[2.524s] creating /home/yuchel/share_repo/install/onewheel/share/onewheel/launch
+[2.524s] copying launch/simulation.launch.py -> /home/yuchel/share_repo/install/onewheel/share/onewheel/launch
+[2.524s] running install_egg_info
+[2.540s] Copying ../../build/onewheel/onewheel.egg-info to /home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages/onewheel-0.0.0-py3.12.egg-info
+[2.542s] running install_scripts
+[2.693s] Installing control_node script to /home/yuchel/share_repo/install/onewheel/lib/onewheel
+[2.693s] writing list of installed files to '/home/yuchel/share_repo/build/onewheel/install.log'
+[2.729s] Invoked command in '/home/yuchel/share_repo/src/1wheel' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yuchel/share_repo/build/onewheel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuchel/share_repo/install/onewheel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/onewheel build --build-base /home/yuchel/share_repo/build/onewheel/build install --record /home/yuchel/share_repo/build/onewheel/install.log --install-scripts $base/lib/onewheel --single-version-externally-managed install_data
